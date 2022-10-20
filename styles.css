@@ -1,9 +1,9 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #7C7287;
 }
 
-#level-title {
+.gameTitle, #level-title{
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
   margin:  5%;
@@ -50,4 +50,10 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
